@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Lato";
+}
+body ::selection {
+  color: white;
+  background-color: rgba(253, 208, 28, 0.75);
+}
+
+main {
+  position: relative;
+  max-width: 890px;
+  margin: auto;
+  padding: 32px 80px;
+}
+
+.page-footer {
+  padding-top: 0px;
+}
+
+nav {
+  background-color: #fdd01c;
+  color: #2d2d2d;
+}
+nav a {
+  color: #2d2d2d;
+}
+
+nav ul a {
+  background-color: #fdd01c;
+  color: #2d2d2d;
+  font-family: "Gotham HTF Book";
+}
+
+nav .brand-logo {
+  background-color: #fdd01c;
+  color: #2d2d2d;
+}
+
+.page-footer {
+  background-color: #2d2d2d;
+}
+
+span {
+  color: #fdd01c;
+}
+span a {
+  color: inherit;
+}
+
+#profilPic {
+  position: relative;
+  width: 320px;
+  right: 0;
+  user-select: none;
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-bottom: 40px;
+  margin-top: 16px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 80px;
+    margin-top: 32px;
+  }
+  img {
+    width: 240px;
+    right: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    padding: 32px;
+  }
+  h1 {
+    font-size: 48px;
+    margin-top: 120px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  small {
+    font-size: 12px;
+  }
+  img {
+    width: 200px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+/*# sourceMappingURL=style.min.css.map */
