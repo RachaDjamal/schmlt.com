@@ -6,22 +6,11 @@
 }
 
 nav {
-  background-color: #fdd01c;
-  color: #2d2d2d;
+  background-color: #2d2d2d;
+  color: #fff;
 }
 nav a {
-  color: #2d2d2d;
-}
-
-nav ul a {
-  background-color: #fdd01c;
-  color: #2d2d2d;
-  font-family: "Gotham HTF Book";
-}
-
-nav .brand-logo {
-  background-color: #fdd01c;
-  color: #2d2d2d;
+  color: #fff;
 }
 
 * {
@@ -32,8 +21,8 @@ nav .brand-logo {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: beige;
-  color: #2d2d2d;
+  background-color: #2d2d2d;
+  color: #fff;
 }
 body ::selection {
   color: white;
@@ -111,7 +100,7 @@ a::after {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: currentColor;
+  background-color: #fdd01c;
   opacity: 0;
   transform: scaleX(0);
   transform-origin: right;
@@ -119,6 +108,7 @@ a::after {
 }
 a:focus, a:hover {
   outline: none;
+  color: #fdd01c;
 }
 a:focus:after, a:hover:after {
   opacity: 1;

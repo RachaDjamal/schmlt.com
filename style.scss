@@ -9,24 +9,12 @@ $primary-color: #fdd01c;
 }
 
 nav {
-  background-color: $primary-color;
-  color: #2d2d2d;
+  background-color: #2d2d2d;
+  color: #fff;
   a {
-    color: #2d2d2d;
+    color: #fff;
   }
 }
-
-nav ul a {
-  background-color: $primary-color;
-  color: #2d2d2d;
-  font-family: "Gotham HTF Book";
-}
-
-nav .brand-logo {
-  background-color: $primary-color;
-  color: #2d2d2d;
-}
-
 
 * {
   margin: 0;
@@ -36,8 +24,8 @@ nav .brand-logo {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: beige;
-  color: #2d2d2d;
+  background-color: #2d2d2d;
+  color: #fff;
 
   ::selection {
       color: white;
@@ -120,7 +108,7 @@ a {
       left: 0;
       width: 100%;
       height: 1px;
-      background-color: currentColor;
+      background-color: $primary-color;
       opacity: 0;
       transform: scaleX(0);
       transform-origin: right;
@@ -130,6 +118,7 @@ a {
   &:focus,
   &:hover {
       outline: none;
+      color: $primary-color;
 
       &:after {
           opacity: 1;
