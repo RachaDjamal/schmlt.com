@@ -116,6 +116,13 @@ a:focus:after, a:hover:after {
   transform: scaleX(1);
 }
 
+.sidenav {
+  background-color: #2d2d2d;
+}
+.sidenav li a {
+  color: #fff;
+}
+
 @media screen and (max-width: 800px) {
   #Title {
     font-size: 80px;
