@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             targets: headingElement,
             opacity: [1, 0],
             translateY: [0 , 50],
-            duration: 1500,
+            duration: 1000,
             easing: 'easeInOutQuad',
             complete: () => {
                 index = (index + 1) % subtitles.length;
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     targets: headingElement,
                     opacity: [0, 1],
                     translateY: [50 , 0],
-                    duration: 1500,
+                    duration: 1000,
                     easing: 'easeInOutQuad'
                 });
             }
