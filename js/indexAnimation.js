@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
       "I'm a <span>born</span> tinkerer.",
       "I'm a <span>quick</span> learner.",
       "I'm an <span>energetic</span> co-worker.",
-      "I'm a <span>former</span> entrepreneur.",
       "I'm a <span>perpetual</span> maker.",
       "I'm a <span>huge</span> 'The Office' fan.",
       "I'm an <span>aspiring</span> web developer."
