@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         anime({
             targets: headingElement,
             opacity: [1, 0],
+            translateY: [0 , 50],
             duration: 1500,
             easing: 'easeInOutQuad',
             complete: () => {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 anime({
                     targets: headingElement,
                     opacity: [0, 1],
+                    translateY: [50 , 0],
                     duration: 1500,
                     easing: 'easeInOutQuad'
                 });
