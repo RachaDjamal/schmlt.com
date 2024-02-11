@@ -75,7 +75,7 @@ span a {
 }
 
 p {
-  color: #a0a0a0;
+  color: #fff;
   font-size: 18px;
   line-height: 1.6em;
 }
@@ -127,6 +127,36 @@ a:focus:after, a:hover:after {
 }
 .sidenav li a {
   color: #fff;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 3.5rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  margin-top: 1.168rem;
+  margin-bottom: 1.168rem;
+  color: #a0a0a0;
+}
+.section-subtitle a {
+  color: #a0a0a0;
+}
+.section-subtitle a:hover {
+  outline: none;
+  color: #fdd01c;
+}
+
+.section-list ul:not(.browser-default) > li {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 @media screen and (max-width: 800px) {

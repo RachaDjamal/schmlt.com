@@ -33,5 +33,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    setInterval(changeHeading, 3500);
+    setInterval(changeHeading, 3000);
 });

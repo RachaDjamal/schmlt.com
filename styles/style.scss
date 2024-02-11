@@ -81,7 +81,7 @@ span {
 }
 
 p {
-  color: #a0a0a0;
+  color: #fff;
   font-size: 18px;
   line-height: 1.6em;
 
@@ -137,13 +137,46 @@ a {
 
 .sidenav {
   background-color: #2d2d2d;
-  
   li {
     a {
       color: #fff;
     }
   }
 }
+
+.title {
+  margin-top: 0;
+  font-size: 3.5rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  margin-top: 1.168rem;
+  margin-bottom: 1.168rem;
+  color: #a0a0a0;
+  a {
+    color: #a0a0a0;
+    &:hover {
+      outline: none;
+      color: $primary-color;
+    }
+  }
+}
+
+.section-list {
+  ul:not(.browser-default)>li {
+    list-style-type: disc;
+    list-style-position: inside
+  }
+  
+}
+
 
 @media screen and (max-width: 800px) {
   #Title {
