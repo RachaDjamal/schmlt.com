@@ -85,11 +85,11 @@ span {
 
 p {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6em;
 
   &:not(:last-of-type) {
-      margin-bottom: 32px;
+      margin-bottom: 10px;
   }
 }
 
@@ -152,6 +152,7 @@ a {
 .title {
   margin-top: 0;
   font-size: 3.5rem;
+  color: $primary-color;
 }
 
 .section-title {
@@ -176,6 +177,8 @@ a {
 
 .section-list {
   list-style-position: inside;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 

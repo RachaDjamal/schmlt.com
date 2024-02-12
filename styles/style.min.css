@@ -79,11 +79,11 @@ span a {
 
 p {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6em;
 }
 p:not(:last-of-type) {
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 
 small {
@@ -138,6 +138,7 @@ a:focus:after, a:hover:after {
 .title {
   margin-top: 0;
   font-size: 3.5rem;
+  color: #fdd01c;
 }
 
 .section-title {
@@ -162,6 +163,8 @@ a:focus:after, a:hover:after {
 
 .section-list {
   list-style-position: inside;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 800px) {
