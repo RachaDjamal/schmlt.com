@@ -17,6 +17,9 @@ $primary-color: #fdd01c;
 nav {
   background-color: #2d2d2d;
   color: #fff;
+  ul:not(.browser-default)>li {
+    list-style-type: none;
+  }
   a {
     color: #fff;
   }
@@ -81,12 +84,12 @@ span {
 }
 
 p {
-  color: #a0a0a0;
-  font-size: 18px;
+  color: #fff;
+  font-size: 20px;
   line-height: 1.6em;
 
   &:not(:last-of-type) {
-      margin-bottom: 32px;
+      margin-bottom: 10px;
   }
 }
 
@@ -137,12 +140,57 @@ a {
 
 .sidenav {
   background-color: #2d2d2d;
-  
+
   li {
+    list-style-type: none;
     a {
       color: #fff;
     }
   }
+}
+
+.title {
+  margin-top: 0;
+  font-size: 3.5rem;
+  color: $primary-color;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  margin-top: 1.168rem;
+  margin-bottom: 1.168rem;
+  color: #a0a0a0;
+  a {
+    color: #a0a0a0;
+    &:hover {
+      outline: none;
+      color: $primary-color;
+    }
+  }
+}
+
+.section-list {
+  list-style-position: inside;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+canvas {
+  margin-top: 15px;
+}
+
+img {
+  margin-top: 15px;
+}
+
+.responsive-video {
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 800px) {
@@ -187,4 +235,6 @@ a {
       transform: translateX(50%);
       opacity: .6;
   }
+
+ 
 }
