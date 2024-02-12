@@ -181,6 +181,17 @@ a {
   font-size: 18px;
 }
 
+canvas {
+  margin-top: 15px;
+}
+
+img {
+  margin-top: 15px;
+}
+
+.responsive-video {
+  margin-top: 15px;
+}
 
 @media screen and (max-width: 800px) {
   #Title {
@@ -224,4 +235,6 @@ a {
       transform: translateX(50%);
       opacity: .6;
   }
+
+ 
 }

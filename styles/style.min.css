@@ -167,6 +167,18 @@ a:focus:after, a:hover:after {
   font-size: 18px;
 }
 
+canvas {
+  margin-top: 15px;
+}
+
+img {
+  margin-top: 15px;
+}
+
+.responsive-video {
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 800px) {
   #Title {
     font-size: 80px;
