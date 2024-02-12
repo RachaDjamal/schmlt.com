@@ -189,6 +189,10 @@ img {
     right: 80px;
     opacity: 0.6;
   }
+  ul {
+    text-indent: -26px;
+    margin-left: 26px;
+  }
 }
 @media screen and (max-width: 600px) {
   main {
@@ -213,6 +217,13 @@ img {
     right: 50%;
     transform: translateX(50%);
     opacity: 0.6;
+  }
+  .section-list {
+    font-size: 12px;
+  }
+  ul {
+    text-indent: -18px;
+    margin-left: 18px;
   }
 }
 
