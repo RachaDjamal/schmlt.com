@@ -14,6 +14,9 @@ nav {
   background-color: #2d2d2d;
   color: #fff;
 }
+nav ul:not(.browser-default) > li {
+  list-style-type: none;
+}
 nav a {
   color: #fff;
 }
@@ -125,6 +128,9 @@ a:focus:after, a:hover:after {
 .sidenav {
   background-color: #2d2d2d;
 }
+.sidenav li {
+  list-style-type: none;
+}
 .sidenav li a {
   color: #fff;
 }
@@ -154,8 +160,7 @@ a:focus:after, a:hover:after {
   color: #fdd01c;
 }
 
-.section-list ul:not(.browser-default) > li {
-  list-style-type: disc;
+.section-list {
   list-style-position: inside;
 }
 

@@ -17,6 +17,9 @@ $primary-color: #fdd01c;
 nav {
   background-color: #2d2d2d;
   color: #fff;
+  ul:not(.browser-default)>li {
+    list-style-type: none;
+  }
   a {
     color: #fff;
   }
@@ -137,7 +140,9 @@ a {
 
 .sidenav {
   background-color: #2d2d2d;
+
   li {
+    list-style-type: none;
     a {
       color: #fff;
     }
@@ -170,11 +175,7 @@ a {
 }
 
 .section-list {
-  ul:not(.browser-default)>li {
-    list-style-type: disc;
-    list-style-position: inside
-  }
-  
+  list-style-position: inside;
 }
 
 
