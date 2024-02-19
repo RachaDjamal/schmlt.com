@@ -179,6 +179,10 @@ img {
   margin-top: 15px;
 }
 
+nav .brand-logo i.material-icons {
+  margin-right: 0px;
+}
+
 @media screen and (max-width: 800px) {
   #Title {
     font-size: 80px;
@@ -188,6 +192,10 @@ img {
     width: 240px;
     right: 80px;
     opacity: 0.6;
+  }
+  ul {
+    text-indent: -26px;
+    margin-left: 26px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -213,6 +221,13 @@ img {
     right: 50%;
     transform: translateX(50%);
     opacity: 0.6;
+  }
+  .section-list {
+    font-size: 12px;
+  }
+  ul {
+    text-indent: -18px;
+    margin-left: 18px;
   }
 }
 
