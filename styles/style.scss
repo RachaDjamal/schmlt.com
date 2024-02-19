@@ -11,6 +11,14 @@ $primary-color: #fdd01c;
     font-size: small;
   }
 
+  a {
+    margin-left: 4px;
+  }
+
+  em {
+    margin-left: 4px;
+  }
+
   box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.14), 0 -3px 1px -2px rgba(0,0,0,0.12), 0 -1px 5px 0 rgba(0,0,0,0.2);
 }
 
@@ -161,6 +169,11 @@ a {
   margin-bottom: 1.3rem;
 }
 
+.divider {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
 .section-subtitle {
   font-size: 2rem;
   margin-top: 1.168rem;
@@ -178,7 +191,7 @@ a {
 .section-list {
   list-style-position: inside;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 canvas {
