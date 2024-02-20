@@ -1,5 +1,9 @@
 $primary-color: #fdd01c;
 
+nav .brand-logo i, nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"], nav .brand-logo i.material-icons {
+  margin-right: 0px;
+}
+
 .page-footer {
   padding-top: 0px;
   background-color: #2d2d2d;
@@ -265,5 +269,9 @@ nav .brand-logo i.material-icons {
   ul {
     text-indent:-18px; 
     margin-left:18px;
+    }
+
+    nav .brand-logo i, nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"], nav .brand-logo i.material-icons {
+      float: none;
     }
 }
