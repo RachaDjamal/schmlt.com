@@ -1,106 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sacha Mallet - Education</title>
     <!-- Style files -->
     <link rel="icon" sizes="16x16" href="/img/favicon-16x16.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <link rel="stylesheet" href="/styles/style.min.css" />
 
     <!-- The website JavaScript files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script  src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="/script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <div class="navbar-fixed">
         <nav>
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="/" class="brand-logo"><i class="material-icons">home</i></a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="/pages/work.html">WORK EXPERIENCE</a></li>
-                        <li><a href="/pages/education.html">EDUCATION</a></li>
-                        <li><a href="/pages/achievements.html">ACHIEVEMENTS</a></li>
-                    </ul>
-                </div>
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="/" class="brand-logo"
+                ><i class="material-icons">home</i></a
+              >
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                ><i class="material-icons">menu</i></a
+              >
+              <ul class="right hide-on-med-and-down">
+                <li><a href="/pages/work.html">WORK EXPERIENCE</a></li>
+                <li><a href="/pages/education.html">EDUCATION</a></li>
+                <li><a href="/pages/achievements.html">ACHIEVEMENTS</a></li>
+              </ul>
             </div>
+          </div>
         </nav>
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="/pages/work.html">Work experience</a></li>
-            <li><a href="/pages/education.html">Education</a></li>
-            <li><a href="/pages/achievements.html">Achievements</a></li>
-        </ul>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="/pages/work.html">Work experience</a></li>
+        <li><a href="/pages/education.html">Education</a></li>
+        <li><a href="/pages/achievements.html">Achievements</a></li>
+      </ul>
     </header>
     <main>
-        <h1 class="title">Education</h1>
-        <div class="divider"></div>
-        <div class="section">
-            <h2 class="section-title">Software developer</h2>
-            <h3 class="section-subtitle"><a target="_blank" href="https://42.fr/en/homepage/">École 42</a> : 2019 - 2020</h3>
-            <p class="section-description">
-                42 is a pioneering and innovative <span>coding school</span> that operates with a unique educational model, emphasizing <span>peer-to-peer learning</span> and <span>project-based pedagogy</span>. 
-                Founded in Paris, France, by Xavier Niel, 42 has expanded globally, offering its <span>no-tuition</span> programming education to students from all walks of life. 
-                The school distinguishes itself by having <span>no traditional teachers or classrooms</span>, and instead, students learn through completing coding projects and collaborating with their peers. 
-                This <span>self-directed</span> learning environment is designed to foster software development skills, critical thinking, and problem-solving abilities, preparing students for careers in the tech industry. 
-                42's curriculum covers various aspects of computer science, including algorithms, data structures, databases, web development, and cybersecurity.<br>
-            </p>
-            <ul class="section-list browser-default">
-                <li> Understanding of <span>low-level</span> languages (C/C++-).</li>
-                <li> Rewriting the <span>lib c</span> function library.</li>
-                <li> Exploring <span>web development</span> and using frameworks</li>
-            </ul>
-        </div>
+      <h1 class="title">Education</h1>
+      <div class="divider"></div>
+      <div class="section">
+        <h2 class="section-title">Software developer</h2>
+        <h3 class="section-subtitle">
+          <a target="_blank" href="https://42.fr/en/homepage/">École 42</a> :
+          2019 - 2020
+        </h3>
+        <p class="section-description">
+          42 is a pioneering and innovative <span>coding school</span> that
+          operates with a unique educational model, emphasizing
+          <span>peer-to-peer learning</span> and
+          <span>project-based pedagogy</span>. Founded in Paris, France, by
+          Xavier Niel, 42 has expanded globally, offering its
+          <span>no-tuition</span> programming education to students from all
+          walks of life. The school distinguishes itself by having
+          <span>no traditional teachers or classrooms</span>, and instead,
+          students learn through completing coding projects and collaborating
+          with their peers. This <span>self-directed</span> learning environment
+          is designed to foster software development skills, critical thinking,
+          and problem-solving abilities, preparing students for careers in the
+          tech industry. 42's curriculum covers various aspects of computer
+          science, including algorithms, data structures, databases, web
+          development, and cybersecurity.<br />
+        </p>
+        <ul class="section-list browser-default">
+          <li>Understanding of <span>low-level</span> languages (C/C++-).</li>
+          <li>Rewriting the <span>lib c</span> function library.</li>
+          <li>Exploring <span>web development</span> and using frameworks</li>
+        </ul>
+      </div>
 
-        <div class="divider"></div>
+      <div class="divider"></div>
 
-        <div class="section">
-            <h2 class="section-title">Master's degree in Innovation, Design, Entrepreneurship, and Arts</h2>
-            <h3 class="section-subtitle"><a target="_blank" href="https://em-lyon.com/">emlyon business school</a> : 2017 - 2019</h3>
-            <p class="section-description">
-                The IDEA program is a collaborative effort between emlyon business school, which awards its master's degree, and École Centrale de Lyon, which contributes technical expertise and introductions to <span>materials engineering</span>. 
-                Centered around <span>innovation</span>, <span>design</span>, <span>entrepreneurship</span>, and <span>arts</span>, the program immerses students in project-based learning from the start of the academic year. 
-                The entire curriculum is built on the methodologies of <span>Design Thinking</span> and <span>learning by doing</span>, allowing students to blend personal reflection, digital fabrication tools, and academic knowledge to address major <span>innovation challenges</span> with a creative and structured approach.<br>
-            </p>
-            <ul class="section-list browser-default">
-                <li>A program based on <span>design thinking</span> and project mode.</li>
-                <li>Discovery and appropriation of various rapid <span>prototyping tools</span>.</li>
-                <li>Learning the <span>Adobe</span> suite.</li>
-                <li>Several projects using <span>arduino boards</span> and <span>3D printed parts</span>.</li>
-                <li>Initiation to <span>materials engineering</span>.</li>
-            </ul>
-        </div>
-        
-        <div class="divider"></div>
+      <div class="section">
+        <h2 class="section-title">
+          Master's degree in Innovation, Design, Entrepreneurship, and Arts
+        </h2>
+        <h3 class="section-subtitle">
+          <a target="_blank" href="https://em-lyon.com/"
+            >emlyon business school</a
+          >
+          : 2017 - 2019
+        </h3>
+        <p class="section-description">
+          The IDEA program is a collaborative effort between emlyon business
+          school, which awards its master's degree, and École Centrale de Lyon,
+          which contributes technical expertise and introductions to
+          <span>materials engineering</span>. Centered around
+          <span>innovation</span>, <span>design</span>,
+          <span>entrepreneurship</span>, and <span>arts</span>, the program
+          immerses students in project-based learning from the start of the
+          academic year. The entire curriculum is built on the methodologies of
+          <span>Design Thinking</span> and <span>learning by doing</span>,
+          allowing students to blend personal reflection, digital fabrication
+          tools, and academic knowledge to address major
+          <span>innovation challenges</span> with a creative and structured
+          approach.<br />
+        </p>
+        <ul class="section-list browser-default">
+          <li>
+            A program based on <span>design thinking</span> and project mode.
+          </li>
+          <li>
+            Discovery and appropriation of various rapid
+            <span>prototyping tools</span>.
+          </li>
+          <li>Learning the <span>Adobe</span> suite.</li>
+          <li>
+            Several projects using <span>arduino boards</span> and
+            <span>3D printed parts</span>.
+          </li>
+          <li>Initiation to <span>materials engineering</span>.</li>
+        </ul>
+      </div>
 
-        <div class="section">
-            <h2 class="section-title">Bachelor's degree in business administration</h2>
-            <h3 class="section-subtitle"><a target="_blank" href="https://www.ism-iae.uvsq.fr/">UVSQ</a> : 2016 - 2017</h3>
-            <p class="section-description">
-                It covers subjects such as finance, marketing, human resources, and operations. 
-                The program aims to equip students with the skills necessary for effective <span>leadership and management</span> in various business environments. 
-                Students learn to analyze business problems, develop <span>strategic solutions</span>, and understand the impact of global economic trends on businesses. 
-                The degree also emphasizes the development of communication, teamwork, and <span>decision-making skills</span>, preparing graduates for careers in business management, entrepreneurship, or further advanced studies in business.
-            </p>
-            
-            <ul class="section-list browser-default">
-                <li><span>Accounting</span> and auditing courses.</li>
-                <li>Introduction to <span>controlling</span>.</li>
-                <li>Preparation for the <span>TAGE MAGE</span> exam.</li>
-            </ul>
-        </div>
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2 class="section-title">
+          Bachelor's degree in business administration
+        </h2>
+        <h3 class="section-subtitle">
+          <a target="_blank" href="https://www.ism-iae.uvsq.fr/">UVSQ</a> : 2016
+          - 2017
+        </h3>
+        <p class="section-description">
+          It covers subjects such as finance, marketing, human resources, and
+          operations. The program aims to equip students with the skills
+          necessary for effective <span>leadership and management</span> in
+          various business environments. Students learn to analyze business
+          problems, develop <span>strategic solutions</span>, and understand the
+          impact of global economic trends on businesses. The degree also
+          emphasizes the development of communication, teamwork, and
+          <span>decision-making skills</span>, preparing graduates for careers
+          in business management, entrepreneurship, or further advanced studies
+          in business.
+        </p>
+
+        <ul class="section-list browser-default">
+          <li><span>Accounting</span> and auditing courses.</li>
+          <li>Introduction to <span>controlling</span>.</li>
+          <li>Preparation for the <span>TAGE MAGE</span> exam.</li>
+        </ul>
+      </div>
     </main>
     <footer class="page-footer valign-wrapper">
-        <div class="container">
-            <p>Made with ❤️ by Sacha • <a target="_blank" href="https://github.com/RachaDjamal">Github</a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/sacha-mallet/">LinkedIn</a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/rouelibre.cc/">Instagram</a>&nbsp;&nbsp;<a href="mailto:sacha.mallet1@gmail.com">Mail</a></p>
-        </div>
+      <div class="container">
+        <p>
+          Made with ❤️ by Sacha Mallet <em>·</em>
+          <a target="_blank" href="https://github.com/RachaDjamal">Github</a
+          >&nbsp;&nbsp;<a
+            target="_blank"
+            href="https://www.linkedin.com/in/sacha-mallet/"
+            >LinkedIn</a
+          >&nbsp;&nbsp;<a
+            target="_blank"
+            href="https://www.instagram.com/rouelibre.cc/"
+            >Instagram</a
+          >&nbsp;&nbsp;<a href="mailto:sacha.mallet1@gmail.com">Mail</a>
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
