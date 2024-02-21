@@ -160,6 +160,7 @@ a:focus:after, a:hover:after {
 .divider {
   margin-top: 4rem;
   margin-bottom: 5rem;
+  background-color: #a0a0a0;
 }
 
 .section-subtitle {
@@ -238,7 +239,7 @@ nav .brand-logo i.material-icons {
     opacity: 0.6;
   }
   .section-list {
-    font-size: 12px;
+    font-size: 14px;
   }
   ul {
     text-indent: -18px;
@@ -246,6 +247,11 @@ nav .brand-logo i.material-icons {
   }
   nav .brand-logo i, nav .brand-logo [class^=mdi-], nav .brand-logo [class*=mdi-], nav .brand-logo i.material-icons {
     float: none;
+  }
+  .divider {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    background-color: #a0a0a0;
   }
 }
 
