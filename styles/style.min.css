@@ -15,6 +15,7 @@ nav .brand-logo i, nav .brand-logo [class^=mdi-], nav .brand-logo [class*=mdi-],
 }
 .page-footer a {
   margin-left: 4px;
+  color: #fff;
 }
 .page-footer em {
   margin-left: 4px;
@@ -109,7 +110,7 @@ small a::after {
 
 a {
   position: relative;
-  color: white;
+  color: #a0a0a0;
   text-decoration: none;
 }
 a::after {
